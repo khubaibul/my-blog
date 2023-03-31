@@ -8,13 +8,13 @@ import {sanityClient, urlFor} from "../sanity";
 import { Post } from "../typing";
 import Image from "next/image";
 import Link from "next/link";
+import SupportMe from "../components/SupportMe";
 
 interface Props{
   posts: [Post]
 }
 
 export default function Home({posts}: Props) {
-  console.log(posts);
   return (
     <div>
       <Head>
@@ -34,7 +34,7 @@ export default function Home({posts}: Props) {
         </div>
         {/* ============ Banner-Bottom End here ======= */}
         {/* ============ Post Part Start here ========= */}
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 py-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 py-6 px-4 mt-28 mb-16">
           {
             posts.map(post=> 
               <Link key={post._id} href={`/post/${post.slug.current}`}>
@@ -67,6 +67,12 @@ export default function Home({posts}: Props) {
           }
         </div>
         {/* ============ Post Part End here =========== */}
+          <div className="max-w-7xl mx-auto">
+            <SupportMe/>
+          </div>
+        {/* =========== Support Me Start Here */}
+
+        {/* =========== Support Me End Here */}
 
         {/* ============ Footer Start here============= */}
         <Footer />
