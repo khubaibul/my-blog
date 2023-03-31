@@ -67,9 +67,7 @@ export default function Home({posts}: Props) {
           }
         </div>
         {/* ============ Post Part End here =========== */}
-          <div className="max-w-7xl mx-auto">
-            <SupportMe/>
-          </div>
+          <SupportMe/>
         {/* =========== Support Me Start Here */}
 
         {/* =========== Support Me End Here */}
