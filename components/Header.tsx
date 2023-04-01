@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logoDark from "../public/images/logoDark.png";
+import logo from "../public/images/logo1.png";
 import { useSession, signIn, signOut} from "next-auth/react";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
       <div className="max-w-7xl h-full mx-auto flex justify-between items-center">
         <Link href="/">
           <div>
-            <Image width={80} height={80} src={logoDark} alt="logoDark" />
+            <Image width={180} height={180} src={logo} alt="logoDark" />
           </div>
         </Link>
         <div>
@@ -37,14 +37,14 @@ const Header = () => {
             ?
             <button 
               onClick={()=>signOut()}
-              className="uppercase text-sm border-[1px] border-bgColor hover:border-secondaryColor px-4 py-1 font-semibold text-white rounded-md bg-secondaryColor transition-all duration-300 active:bg-yellow-600"
+              className="uppercase lg:text-sm text-xs border-[1px] border-bgColor hover:border-secondaryColor lg:px-4 px-2 py-1 font-semibold text-white rounded-md bg-secondaryColor transition-all duration-300 active:bg-yellow-600"
             >
               Sign Out
             </button>
             : 
             <button 
               onClick={()=>signIn()}
-              className="uppercase text-sm border-[1px] border-primaryColor hover:border-secondaryColor px-4 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600"
+              className="uppercase lg:text-sm text-xs border-[1px] border-primaryColor hover:border-secondaryColor lg:px-4 px-2 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600"
             >
               Sign In
             </button>
