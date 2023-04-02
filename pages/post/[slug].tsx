@@ -20,6 +20,7 @@ type Inputs = {
 }
 
 
+
 const Post = ({post}: Props) => {
     const {data: session} = useSession();
     const [submitted, setSubmitted] = useState(false);
@@ -210,7 +211,7 @@ const Post = ({post}: Props) => {
                         <h3 className='text-3xl font-titleFont font-semibold'>Comments</h3>
                         <hr />
                         {
-                            post?.comments.map(comment => (
+                            post?.comments.map((comment:any) => (
                                 <div key={comment._id}>
                                     <p><span className='text-secondaryColor font-medium'>{comment.name} - </span> {comment.comment}</p>
                                 </div>

@@ -3,8 +3,10 @@ import Link from "next/link";
 import logo from "../public/images/logo1.png";
 import { useSession, signIn, signOut} from "next-auth/react";
 
+
 const Header = () => {
-  const {data: session} = useSession();
+  const {data: session}:{data:any} = useSession();
+
   return (
     <div className="w-full h-20 border-b-[1px] border-b-black font-titleFont sticky top-0 bg-white z-50 px-4">
       <div className="max-w-7xl h-full mx-auto flex justify-between items-center">
