@@ -13,6 +13,7 @@
 - React
 - Next.js
 - Next Auth
+- Sanity - CMS
 - Vercel
 
 ## Features
