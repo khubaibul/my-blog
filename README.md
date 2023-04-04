@@ -1,6 +1,6 @@
 # My Blog
 
-## Live Website Link : https://my-blog-git-main-kishakib.vercel.app
+## Live Website Link : https://my-blog-kishakib.vercel.app
 
 ## Client Side Code : https://github.com/KIShakib/my-blog
 
