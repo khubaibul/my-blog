@@ -9,8 +9,7 @@
 ## Technology
 
 - Tailwind
-- JavaScript
-- React
+- TypeScript
 - Next.js
 - Next Auth
 - Sanity - CMS
