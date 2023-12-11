@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../public/images/logo1.png";
-import { useSession, signIn, signOut} from "next-auth/react";
-
+import { useSession, signIn, signOut } from "next-auth/react";
 
 const Header = () => {
-  const {data: session}:{data:any} = useSession();
+  const { data: session }: { data: any } = useSession();
 
   return (
     <div className="w-full h-20 border-b-[1px] border-b-black font-titleFont sticky top-0 bg-white z-50 px-4">
@@ -17,10 +16,14 @@ const Header = () => {
         </Link>
         <div>
           <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
-            <Link href="/"><li className="headerLi">Home</li></Link>
-            <Link href="/posts"><li className="headerLi">Posts</li></Link>
+            <Link href="/">
+              <li className="headerLi">Home</li>
+            </Link>
+            <Link href="/posts">
+              <li className="headerLi">Posts</li>
+            </Link>
             <li className="headerLi">Pages</li>
-            <li className="headerLi">Features</li>
+            <li className="headerLi">Photography</li>
             <li className="headerLi">Contact</li>
           </ul>
         </div>
@@ -28,29 +31,33 @@ const Header = () => {
           <div className="flex items-center gap-1">
             <img
               className="w-8 h-8 rounded-full"
-              src={session? session?.user!.image : "https://www.noormohammad.live/static/media/roundedProfile.477a194221d255c8ce26.png"}
+              src={
+                session
+                  ? session?.user!.image
+                  : "https://www.noormohammad.live/static/media/roundedProfile.477a194221d255c8ce26.png"
+              }
               alt="logo"
             />
-            <p className="text-sm font-medium">{session? session?.user.name : "Hello Stranger!"}</p>
+            <p className="text-sm font-medium">
+              {session ? session?.user.name : "Hello Stranger!"}
+            </p>
           </div>
 
-          {
-            session 
-            ?
-            <button 
-              onClick={()=>signOut()}
+          {session ? (
+            <button
+              onClick={() => signOut()}
               className="uppercase lg:text-sm text-xs border-[1px] border-bgColor hover:border-secondaryColor lg:px-4 px-2 py-1 font-semibold text-white rounded-md bg-secondaryColor transition-all duration-300 active:bg-yellow-600"
             >
               Sign Out
             </button>
-            : 
-            <button 
-              onClick={()=>signIn()}
+          ) : (
+            <button
+              onClick={() => signIn()}
               className="uppercase lg:text-sm text-xs border-[1px] border-primaryColor hover:border-secondaryColor lg:px-4 px-2 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600"
             >
               Sign In
             </button>
-          }
+          )}
         </div>
       </div>
     </div>
