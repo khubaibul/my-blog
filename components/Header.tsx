@@ -23,7 +23,9 @@ const Header = () => {
               <li className="headerLi">Posts</li>
             </Link>
             <li className="headerLi">Pages</li>
-            <li className="headerLi">Photography</li>
+            <Link href="/photography">
+              <li className="headerLi">Photography</li>
+            </Link>
             <li className="headerLi">Contact</li>
           </ul>
         </div>
