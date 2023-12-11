@@ -48,7 +48,7 @@ const Header = () => {
           {session ? (
             <button
               onClick={() => signOut()}
-              className="uppercase lg:text-sm text-xs border-[1px] border-bgColor hover:border-secondaryColor lg:px-4 px-2 py-1 font-semibold text-white rounded-md bg-secondaryColor transition-all duration-300 active:bg-yellow-600"
+              className="uppercase lg:text-sm text-xs border-[1px] border-bgColor border-secondaryColor lg:px-4 px-2 py-1 font-semibold text-white rounded-md bg-secondaryColor transition-all duration-300 active:bg-yellow-600"
             >
               Sign Out
             </button>
