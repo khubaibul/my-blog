@@ -30,6 +30,12 @@ const index = () => {
           loading={"eager"}
           alt="bannerImgOne"
         />
+        <Image
+          className="w-[450px]"
+          src={Crop_Field}
+          loading={"eager"}
+          alt="bannerImgOne"
+        />
       </div>
       <Footer />
     </div>
