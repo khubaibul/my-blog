@@ -17,10 +17,16 @@ const index = () => {
     <div>
       <Header />
       <h1>This is photography</h1>
-      <div>
+      <div className="flex gap-x-4">
         <Image
-          className="w-full h-auto md:h-[650px] object-cover"
+          className="w-[400px] object-cover"
           src={BAU}
+          loading={"eager"}
+          alt="bannerImgOne"
+        />
+        <Image
+          className="object-cover w-80"
+          src={Cox}
           loading={"eager"}
           alt="bannerImgOne"
         />
