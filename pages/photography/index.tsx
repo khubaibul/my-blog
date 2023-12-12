@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import pic from "../../public/images/BAU.png"
 
 const index = () => {
   return (

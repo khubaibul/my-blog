@@ -32,7 +32,7 @@ const Header = () => {
         <div className="flex items-center gap-8 text-lg">
           <div className="flex items-center gap-1">
             <img
-              className="w-8 h-8 rounded-full"
+              className="w-8 h-8 rounded-full bg-"
               src={
                 session
                   ? session?.user!.image
