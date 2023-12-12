@@ -31,7 +31,7 @@ const index = () => {
           alt="bannerImgOne"
         />
         <Image
-          className="w-[450px]"
+          className="w-[450px] col-span-4"
           src={Crop_Field}
           loading={"eager"}
           alt="bannerImgOne"
