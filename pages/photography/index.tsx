@@ -17,21 +17,21 @@ const index = () => {
     <div>
       <Header />
       <h1>This is photography</h1>
-      <div className="grid grid-cols-11">
+      <div className="grid grid-cols-11 gap-8">
         <Image
-          className="w-[450px] object-cover col-span-4"
+          className="col-span-4"
           src={BAU}
           loading={"eager"}
           alt="bannerImgOne"
         />
         <Image
-          className="object-cover w-80 col-span-3"
+          className="col-span-3"
           src={Cox}
           loading={"eager"}
           alt="bannerImgOne"
         />
         <Image
-          className="w-[450px] col-span-4"
+          className="col-span-4"
           src={Crop_Field}
           loading={"eager"}
           alt="bannerImgOne"
