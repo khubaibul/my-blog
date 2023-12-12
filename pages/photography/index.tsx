@@ -17,9 +17,9 @@ const index = () => {
     <div>
       <Header />
       <h1>This is photography</h1>
-      <div className="grid grid-cols-11 gap-8">
+      <div className="grid grid-cols-11 gap-8 px-10">
         <Image
-          className="col-span-4"
+          className="col-span-4 hover:p-4 transition-all delay-500"
           src={BAU}
           loading={"eager"}
           alt="bannerImgOne"
