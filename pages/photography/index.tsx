@@ -9,6 +9,7 @@ import Majar from "../../public/images/Majar-Sharif.jpg"
 import Mosque from "../../public/images/Mosque.jpg"
 import My_School from "../../public/images/My_School.jpeg"
 import TigerPass from "../../public/images/Tiger_Pass.jpg"
+import ZACS from "../../public/images/ZACS.jpeg"
 
 const index = () => {
   return (
