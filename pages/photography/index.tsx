@@ -25,7 +25,7 @@ const index = () => {
           alt="bannerImgOne"
         />
         <Image
-          className="object-cover w-80 col-span-4"
+          className="object-cover w-80 col-span-3"
           src={Cox}
           loading={"eager"}
           alt="bannerImgOne"
