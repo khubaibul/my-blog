@@ -5,6 +5,7 @@ import BAU from "../../public/images/BAU.png"
 import Cox from "../../public/images/Cox's_Bazar.jpg"
 import Crop_Field from "../../public/images/Crop_Field.jpg"
 import Fruits from "../../public/images/Fruits.jpg"
+import Majar from "../../public/images/Majar-Sharif.jpg"
 
 const index = () => {
   return (
