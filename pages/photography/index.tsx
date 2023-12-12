@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import pic from "../../public/images/BAU.png"
+import BAU from "../../public/images/BAU.png"
+import Cox from "../../public/images/Cox's_Bazar.jpg"
 
 const index = () => {
   return (
