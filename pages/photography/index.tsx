@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import BAU from "../../public/images/BAU.png"
 import Cox from "../../public/images/Cox's_Bazar.jpg"
+import Crop_Field from "../../public/images/Crop_Field.jpg"
 
 const index = () => {
   return (
