@@ -7,6 +7,7 @@ import Crop_Field from "../../public/images/Crop_Field.jpg"
 import Fruits from "../../public/images/Fruits.jpg"
 import Majar from "../../public/images/Majar-Sharif.jpg"
 import Mosque from "../../public/images/Mosque.jpg"
+import My_School from "../../public/images/My_School.jpeg"
 
 const index = () => {
   return (
