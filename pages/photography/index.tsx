@@ -17,9 +17,9 @@ const index = () => {
     <div>
       <Header />
       <h1>This is photography</h1>
-      <div className="flex gap-x-4">
+      <div className="grid grid-cols-11">
         <Image
-          className="w-[400px] object-cover"
+          className="w-[450px] object-cover col-span-4"
           src={BAU}
           loading={"eager"}
           alt="bannerImgOne"
