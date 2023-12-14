@@ -20,7 +20,10 @@ const index = () => {
       <Header />
       <h1>This is photography</h1>
       <div className="grid grid-cols-11 gap-8 px-10">
-        <Link href={"/"} className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4">
+        <Link
+          href={""}
+          className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4"
+        >
           <figure>
             <Image
               className=""
@@ -52,7 +55,7 @@ const index = () => {
             </div>
           </div>
         </Link>
-        <div className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-3">
+        <Link href={""} className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-3">
           <figure>
             <Image
               className=""
@@ -83,8 +86,8 @@ const index = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4">
+        </Link>
+        <di className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4">
           <figure>
             <Image
               className=""
@@ -115,7 +118,7 @@ const index = () => {
               </div>
             </div>
           </div>
-        </div>
+        </di>
       </div>
 
       <Footer />
