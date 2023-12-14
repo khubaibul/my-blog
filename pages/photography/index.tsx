@@ -27,8 +27,8 @@ const index = () => {
               alt="bannerImgOne"
             />
           </figure>
-          <div className=" absolute inset-0 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100 flex justify-center items-center">
-            <div className="w-full text-center text-slate-200">
+          <div className=" absolute inset-0 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
+            <div className="w-full text-center text-slate-200 bg-slate-600 opacity-50 p-5">
               <h3>
                 Location: Bangladesh Agriculture University, Mymensingh,
                 Bangladesh
