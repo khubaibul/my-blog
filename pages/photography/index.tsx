@@ -24,19 +24,19 @@ const index = () => {
           loading={"eager"}
           alt="bannerImgOne"
         />
-        <div className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4">
-        <figure>
-          <Image
-            className=""
-            src={Crop_Field}
-            loading={"eager"}
-            alt="bannerImgOne"
-          />
-        </figure>
-        <div className=" absolute inset-0 pt-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100 flex justify-center items-end">
-          <div className="bg-red-600 w-full text-center text-slate-200">
-            <p>Khubaibul Islam</p>
-            {/* <p>
+        <div className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-3">
+          <figure>
+            <Image
+              className=""
+              src={Cox}
+              loading={"eager"}
+              alt="bannerImgOne"
+            />
+          </figure>
+          <div className=" absolute inset-0 pt-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100 flex justify-center items-end">
+            <div className="bg-red-600 w-full text-center text-slate-200">
+              <p>Khubaibul Islam</p>
+              {/* <p>
               <FontAwesomeIcon
                 className="mr-1"
                 icon={faMoneyBill1}
@@ -50,9 +50,9 @@ const index = () => {
               ></FontAwesomeIcon>
               {course_duration}
             </p> */}
+            </div>
           </div>
         </div>
-      </div>
         <div className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4">
           <figure>
             <Image
