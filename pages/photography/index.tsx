@@ -1,4 +1,5 @@
 import React from "react";
+import { IoLocationSharp } from "react-icons/io5";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import BAU from "../../public/images/BAU.png";
@@ -27,11 +28,14 @@ const index = () => {
               alt="bannerImgOne"
             />
           </figure>
-          <div className=" absolute inset-0 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
-            <div className="w-full text-center text-slate-200 bg-slate-600 opacity-50 p-5">
-              <h3>
-                Location: Bangladesh Agriculture University, Mymensingh,
-                Bangladesh
+          <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
+            <div className="w-full text-center text-slate-200 bg-purple-900 opacity-80 p-5">
+              <h3 className="flex text-purple-800">
+                <IoLocationSharp />
+                <span>
+                  Location: Bangladesh Agriculture University, Mymensingh,
+                  Bangladesh
+                </span>
               </h3>
             </div>
           </div>
