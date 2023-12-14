@@ -1,5 +1,5 @@
 import React from "react";
-import { IoLocationSharp } from "react-icons/io5";
+import { FaCalendar, FaCamera, FaLocationArrow, FaTimes } from "react-icons/fa";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import BAU from "../../public/images/BAU.png";
@@ -30,10 +30,22 @@ const index = () => {
           </figure>
           <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
             <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
-              <div className="flex justify-center gap-0">
-                <IoLocationSharp className="text-3xl" />
+              <div className="flex justify-start items-center gap-0">
+                <FaLocationArrow className="text-4xl" />
                 <h3 className="font-titleFont text-lg font-semibold">
                   Bangladesh Agriculture University, Mymensingh, Bangladesh
+                </h3>
+              </div>
+              <div className="flex justify-start items-center gap-x-4">
+                <FaCamera className="text-2xl" />
+                <h3 className="font-titleFont text-lg font-semibold">
+                  Xiaomi Redmi7
+                </h3>
+              </div>
+              <div className="flex justify-start items-center gap-x-4">
+                <FaCalendar className="text-2xl" />
+                <h3 className="font-titleFont text-lg font-semibold">
+                  24 December 2021
                 </h3>
               </div>
             </div>
@@ -48,23 +60,26 @@ const index = () => {
               alt="bannerImgOne"
             />
           </figure>
-          <div className=" absolute inset-0 pt-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100 flex justify-center items-end">
-            <div className="bg-red-600 w-full text-center text-slate-200">
-              <p>Khubaibul Islam</p>
-              {/* <p>
-              <FontAwesomeIcon
-                className="mr-1"
-                icon={faMoneyBill1}
-              ></FontAwesomeIcon>
-              BDT {course_price}
-            </p>
-            <p>
-              <FontAwesomeIcon
-                className="mr-1"
-                icon={faClock}
-              ></FontAwesomeIcon>
-              {course_duration}
-            </p> */}
+          <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
+            <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
+              <div className="flex justify-start items-center gap-0">
+                <FaLocationArrow className="text-4xl" />
+                <h3 className="font-titleFont text-lg font-semibold">
+                  Cox's Bazar Sea Beach, Cox's Bazar, Bangladesh
+                </h3>
+              </div>
+              <div className="flex justify-start items-center gap-x-4">
+                <FaCamera className="text-2xl" />
+                <h3 className="font-titleFont text-lg font-semibold">
+                  Xiaomi Redmi7
+                </h3>
+              </div>
+              <div className="flex justify-start items-center gap-x-4">
+                <FaCalendar className="text-2xl" />
+                <h3 className="font-titleFont text-lg font-semibold">
+                  17 August 2023
+                </h3>
+              </div>
             </div>
           </div>
         </div>
@@ -77,23 +92,26 @@ const index = () => {
               alt="bannerImgOne"
             />
           </figure>
-          <div className=" absolute inset-0 pt-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100 flex justify-center items-end">
-            <div className="bg-red-600 w-full text-center text-slate-200">
-              <p>Khubaibul Islam</p>
-              {/* <p>
-              <FontAwesomeIcon
-                className="mr-1"
-                icon={faMoneyBill1}
-              ></FontAwesomeIcon>
-              BDT {course_price}
-            </p>
-            <p>
-              <FontAwesomeIcon
-                className="mr-1"
-                icon={faClock}
-              ></FontAwesomeIcon>
-              {course_duration}
-            </p> */}
+          <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
+            <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
+              <div className="flex justify-start items-center gap-0">
+                <FaLocationArrow className="text-4xl" />
+                <h3 className="font-titleFont text-lg font-semibold">
+                  Countryside, Pekua, Cox's Bazar Bangladesh
+                </h3>
+              </div>
+              <div className="flex justify-start items-center gap-x-4">
+                <FaCamera className="text-2xl" />
+                <h3 className="font-titleFont text-lg font-semibold">
+                  Yashica Junior MK-11
+                </h3>
+              </div>
+              <div className="flex justify-start items-center gap-x-4">
+                <FaCalendar className="text-2xl" />
+                <h3 className="font-titleFont text-lg font-semibold">
+                  28 November 2020
+                </h3>
+              </div>
             </div>
           </div>
         </div>
