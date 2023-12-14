@@ -87,7 +87,7 @@ const index = () => {
             </div>
           </div>
         </Link>
-        <di className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4">
+        <Link href={"/"} className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4">
           <figure>
             <Image
               className=""
@@ -118,7 +118,7 @@ const index = () => {
               </div>
             </div>
           </div>
-        </di>
+        </Link>
       </div>
 
       <Footer />
