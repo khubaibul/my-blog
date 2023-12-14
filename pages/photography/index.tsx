@@ -18,12 +18,30 @@ const index = () => {
       <Header />
       <h1>This is photography</h1>
       <div className="grid grid-cols-11 gap-8 px-10">
-        <Image
-          className="col-span-4 hover:p-4 transition-all delay-500"
-          src={BAU}
-          loading={"eager"}
-          alt="bannerImgOne"
-        />
+        <div className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4">
+          <figure>
+            <Image className="" src={BAU} loading={"eager"} alt="bannerImgOne" />
+          </figure>
+          <div className=" absolute inset-0 pt-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100 flex justify-center items-end">
+            <div className="bg-red-600 w-full text-center text-slate-200">
+              <p>Khubaibul Islam</p>
+              {/* <p>
+              <FontAwesomeIcon
+                className="mr-1"
+                icon={faMoneyBill1}
+              ></FontAwesomeIcon>
+              BDT {course_price}
+            </p>
+            <p>
+              <FontAwesomeIcon
+                className="mr-1"
+                icon={faClock}
+              ></FontAwesomeIcon>
+              {course_duration}
+            </p> */}
+            </div>
+          </div>
+        </div>
         <div className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-3">
           <figure>
             <Image
