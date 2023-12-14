@@ -29,14 +29,13 @@ const index = () => {
             />
           </figure>
           <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
-            <div className="w-full text-center text-slate-200 bg-purple-900 opacity-80 p-5">
-              <h3 className="flex text-purple-800">
-                <IoLocationSharp />
-                <span>
-                  Location: Bangladesh Agriculture University, Mymensingh,
-                  Bangladesh
-                </span>
-              </h3>
+            <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
+              <div className="flex justify-center gap-0">
+                <IoLocationSharp className="text-3xl" />
+                <h3 className="font-titleFont text-lg font-semibold">
+                  Bangladesh Agriculture University, Mymensingh, Bangladesh
+                </h3>
+              </div>
             </div>
           </div>
         </div>
