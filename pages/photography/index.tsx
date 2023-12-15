@@ -18,107 +18,216 @@ const index = () => {
   return (
     <div>
       <Header />
-      <h1>This is photography</h1>
-      <div className="grid grid-cols-11 gap-8 px-10">
-        <Link
-          href={""}
-          className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4"
-        >
-          <figure>
-            <Image
-              className=""
-              src={BAU}
-              loading={"eager"}
-              alt="bannerImgOne"
-            />
-          </figure>
-          <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
-            <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
-              <div className="flex justify-start items-center gap-0">
-                <FaLocationArrow className="text-4xl" />
-                <h3 className="font-titleFont text-lg font-semibold">
-                  Bangladesh Agriculture University, Mymensingh, Bangladesh
-                </h3>
-              </div>
-              <div className="flex justify-start items-center gap-x-4">
-                <FaCamera className="text-2xl" />
-                <h3 className="font-titleFont text-lg font-semibold">
-                  Xiaomi Redmi7
-                </h3>
-              </div>
-              <div className="flex justify-start items-center gap-x-4">
-                <FaCalendar className="text-2xl" />
-                <h3 className="font-titleFont text-lg font-semibold">
-                  24 December 2021
-                </h3>
-              </div>
-            </div>
-          </div>
-        </Link>
-        <Link href={""} className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-3">
-          <figure>
-            <Image
-              className=""
-              src={Cox}
-              loading={"eager"}
-              alt="bannerImgOne"
-            />
-          </figure>
-          <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
-            <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
-              <div className="flex justify-start items-center gap-0">
-                <FaLocationArrow className="text-4xl" />
-                <h3 className="font-titleFont text-lg font-semibold">
-                  Cox's Bazar Sea Beach, Cox's Bazar, Bangladesh
-                </h3>
-              </div>
-              <div className="flex justify-start items-center gap-x-4">
-                <FaCamera className="text-2xl" />
-                <h3 className="font-titleFont text-lg font-semibold">
-                  Xiaomi Redmi7
-                </h3>
-              </div>
-              <div className="flex justify-start items-center gap-x-4">
-                <FaCalendar className="text-2xl" />
-                <h3 className="font-titleFont text-lg font-semibold">
-                  17 August 2023
-                </h3>
+      <div className="flex flex-col gap-y-10">
+        <div className="grid grid-cols-11 gap-8 px-10">
+          <Link
+            href={""}
+            className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4"
+          >
+            <figure>
+              <Image
+                className=""
+                src={BAU}
+                loading={"eager"}
+                alt="bannerImgOne"
+              />
+            </figure>
+            <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
+              <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
+                <div className="flex justify-start items-center gap-0">
+                  <FaLocationArrow className="text-4xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Bangladesh Agriculture University, Mymensingh, Bangladesh
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCamera className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Xiaomi Redmi7
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCalendar className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    24 December 2021
+                  </h3>
+                </div>
               </div>
             </div>
-          </div>
-        </Link>
-        <Link href={""} className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4">
-          <figure>
-            <Image
-              className=""
-              src={Crop_Field}
-              loading={"eager"}
-              alt="bannerImgOne"
-            />
-          </figure>
-          <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
-            <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
-              <div className="flex justify-start items-center gap-0">
-                <FaLocationArrow className="text-4xl" />
-                <h3 className="font-titleFont text-lg font-semibold">
-                  Countryside, Pekua, Cox's Bazar Bangladesh
-                </h3>
-              </div>
-              <div className="flex justify-start items-center gap-x-4">
-                <FaCamera className="text-2xl" />
-                <h3 className="font-titleFont text-lg font-semibold">
-                  Yashica Junior MK-11
-                </h3>
-              </div>
-              <div className="flex justify-start items-center gap-x-4">
-                <FaCalendar className="text-2xl" />
-                <h3 className="font-titleFont text-lg font-semibold">
-                  28 November 2020
-                </h3>
+          </Link>
+          <Link
+            href={""}
+            className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-3"
+          >
+            <figure>
+              <Image
+                className=""
+                src={Cox}
+                loading={"eager"}
+                alt="bannerImgOne"
+              />
+            </figure>
+            <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
+              <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
+                <div className="flex justify-start items-center gap-0">
+                  <FaLocationArrow className="text-4xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Cox's Bazar Sea Beach, Cox's Bazar, Bangladesh
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCamera className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Xiaomi Redmi7
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCalendar className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    17 August 2023
+                  </h3>
+                </div>
               </div>
             </div>
-          </div>
-        </Link>
+          </Link>
+          <Link
+            href={""}
+            className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4"
+          >
+            <figure>
+              <Image className="" src={Crop_Field} loading={"eager"} alt="bannerImgOne" />
+            </figure>
+            <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
+              <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
+                <div className="flex justify-start items-center gap-0">
+                  <FaLocationArrow className="text-4xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Countryside, Pekua, Cox's Bazar Bangladesh
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCamera className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Yashica Junior MK-11
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCalendar className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    28 November 2020
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </Link>
+        </div>
+        <div className="grid grid-cols-11 gap-8 px-10">
+          <Link
+            href={""}
+            className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4"
+          >
+            <figure>
+              <Image
+                className=""
+                src={Fruits}
+                loading={"eager"}
+                alt="bannerImgOne"
+              />
+            </figure>
+            <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
+              <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
+                <div className="flex justify-start items-center gap-0">
+                  <FaLocationArrow className="text-4xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Bangladesh Agriculture University, Mymensingh, Bangladesh
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCamera className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Xiaomi Redmi7
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCalendar className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    24 December 2021
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link
+            href={""}
+            className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-3"
+          >
+            <figure>
+              <Image
+                className=""
+                src={Cox}
+                loading={"eager"}
+                alt="bannerImgOne"
+              />
+            </figure>
+            <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
+              <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
+                <div className="flex justify-start items-center gap-0">
+                  <FaLocationArrow className="text-4xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Cox's Bazar Sea Beach, Cox's Bazar, Bangladesh
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCamera className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Xiaomi Redmi7
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCalendar className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    17 August 2023
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link
+            href={""}
+            className="relative overflow-hidden transition duration-200 transform shadow-lg col-span-4"
+          >
+            <figure>
+              <Image
+                className=""
+                src={Crop_Field}
+                loading={"eager"}
+                alt="bannerImgOne"
+              />
+            </figure>
+            <div className=" absolute inset-0 transition-opacity duration-200 bg-purple-600 bg-opacity-40 opacity-0 hover:opacity-100 flex justify-center items-center p-10">
+              <div className="w-full text-center text-purple-600 bg-bgColor opacity-90 p-5">
+                <div className="flex justify-start items-center gap-0">
+                  <FaLocationArrow className="text-4xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Countryside, Pekua, Cox's Bazar Bangladesh
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCamera className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    Yashica Junior MK-11
+                  </h3>
+                </div>
+                <div className="flex justify-start items-center gap-x-4">
+                  <FaCalendar className="text-2xl" />
+                  <h3 className="font-titleFont text-lg font-semibold">
+                    28 November 2020
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </Link>
+        </div>
       </div>
 
       <Footer />
