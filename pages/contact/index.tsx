@@ -6,7 +6,13 @@ const index = () => {
   return (
     <div>
       <Header />
-      <h1>Contact Us</h1>
+
+      <div className="min-h-screen bg-gray-800 py-6 flex flex-col justify-center sm:py-12">
+        <div className="relative py-3 sm:max-w-xl sm:mx-auto">
+
+        </div>
+      </div>
+
       <Footer />
     </div>
   );
