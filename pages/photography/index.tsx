@@ -164,7 +164,7 @@ const index = () => {
             <figure>
               <Image
                 className=""
-                src={Cox}
+                src={Majar}
                 loading={"eager"}
                 alt="bannerImgOne"
               />
