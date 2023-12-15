@@ -199,7 +199,7 @@ const index = () => {
             <figure>
               <Image
                 className=""
-                src={Crop_Field}
+                src={Mosque}
                 loading={"eager"}
                 alt="bannerImgOne"
               />
