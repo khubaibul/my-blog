@@ -10,7 +10,7 @@ const index = () => {
       <div className=" bg-bgColor flex flex-col justify-center sm:py-12">
         <div className="relative py- sm:max-w-xl sm:mx-auto font-titleFont">
           <div className="absolute inset-0 bg-gradient-to-r from-indigo-700 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-          <div className="text-white relative px-8 py-8 bg-indigo-400 shadow-lg sm:rounded-3xl">
+          <div className="text-white relative p-8 bg-indigo-400 shadow-lg sm:rounded-3xl w-[500px]">
             <div className="text-center pb-6">
               <h1 className="text-3xl">Contact Us!</h1>
 
