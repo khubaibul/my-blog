@@ -26,7 +26,9 @@ const Header = () => {
             <Link href="/photography">
               <li className="headerLi">Photography</li>
             </Link>
-            <li className="headerLi">Contact</li>
+            <Link href={"/contact"}>
+              <li className="headerLi">Contact</li>
+            </Link>
           </ul>
         </div>
         <div className="flex items-center gap-8 text-lg">
