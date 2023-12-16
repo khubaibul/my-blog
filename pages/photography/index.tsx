@@ -18,7 +18,7 @@ const index = () => {
   return (
     <div>
       <Header />
-      <h1>My Clickz</h1>
+      <h1>My Clickz 📸</h1>
       <div className="flex flex-col gap-y-10 pt-10">
         <div className="grid grid-cols-11 gap-8 px-10">
           <Link
