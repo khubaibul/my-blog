@@ -19,17 +19,17 @@ const Header = () => {
         </Link>
         <div>
           <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
-            <Link className={route.pathname == "/" ? "text-bgColor" : ""} href="/">
-              <li className="headerLi">Home</li>
+            <Link className={route.pathname == "/" ? "text-secondaryColor" : ""} href="/">
+              Home
             </Link>
-            <Link className={route.pathname == "/posts" ? "text-bgColor" : ""} href="/posts">
+            <Link className={route.pathname == "/posts" ? "text-secondaryColor" : ""} href="/posts">
               <li className="headerLi">Posts</li>
             </Link>
             <li className="headerLi">Pages</li>
-            <Link className={route.pathname == "/photography" ? "text-bgColor" : ""} href="/photography">
+            <Link className={route.pathname == "/photography" ? "text-secondaryColor" : ""} href="/photography">
               <li className="headerLi">Photography</li>
             </Link>
-            <Link className={route.pathname == "/contact" ? "text-bgColor" : ""} href={"/contact"}>
+            <Link className={route.pathname == "/contact" ? "text-secondaryColor" : ""} href={"/contact"}>
               <li className="headerLi">Contact</li>
             </Link>
           </ul>
