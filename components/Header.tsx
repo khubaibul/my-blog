@@ -26,7 +26,7 @@ const Header = () => {
               <li className="headerLi">Posts</li>
             </Link>
             <li className="headerLi">Pages</li>
-            <Link className={route.pathname == "/" ? "text-bgColor" : ""} href="/photography">
+            <Link className={route.pathname == "/photography" ? "text-bgColor" : ""} href="/photography">
               <li className="headerLi">Photography</li>
             </Link>
             <Link className={route.pathname == "/" ? "text-bgColor" : ""} href={"/contact"}>
