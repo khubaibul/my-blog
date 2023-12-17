@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 const Header = () => {
   const { data: session }: { data: any } = useSession();
   const route = useRouter();
+  console.log(route)
 
   return (
     <div className="w-full h-20 border-b-[1px] border-b-black font-titleFont sticky top-0 bg-white z-50 px-4">
@@ -18,17 +19,17 @@ const Header = () => {
         </Link>
         <div>
           <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
-            <Link href="/">
+            <Link className={route.pathname == "/" ? "text-bgColor" : ""} href="/">
               <li className="headerLi">Home</li>
             </Link>
-            <Link href="/posts">
+            <Link className={route.pathname == "/posts" ? "text-bgColor" : ""} href="/posts">
               <li className="headerLi">Posts</li>
             </Link>
             <li className="headerLi">Pages</li>
-            <Link href="/photography">
+            <Link className={route.pathname == "/" ? "text-bgColor" : ""} href="/photography">
               <li className="headerLi">Photography</li>
             </Link>
-            <Link href={"/contact"}>
+            <Link className={route.pathname == "/" ? "text-bgColor" : ""} href={"/contact"}>
               <li className="headerLi">Contact</li>
             </Link>
           </ul>
