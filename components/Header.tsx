@@ -33,7 +33,7 @@ const Header = () => {
               Photography
             </Link>
             <Link className={route.pathname == "/contact" ? "text-secondaryColor" : ""} href={"/contact"}>
-              <li className="headerLi">Contact</li>
+              Contact
             </Link>
           </ul>
         </div>
