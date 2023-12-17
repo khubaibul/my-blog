@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 
 const Header = () => {
   const { data: session }: { data: any } = useSession();
+  const route = useRouter();
 
   return (
     <div className="w-full h-20 border-b-[1px] border-b-black font-titleFont sticky top-0 bg-white z-50 px-4">
