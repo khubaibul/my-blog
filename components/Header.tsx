@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 const Header = () => {
   const { data: session }: { data: any } = useSession();
   const route = useRouter();
-  console.log(route)
+  console.log(route);
 
   return (
     <div className="w-full h-20 border-b-[1px] border-b-black font-titleFont sticky top-0 bg-white z-50 px-4">
@@ -19,20 +19,41 @@ const Header = () => {
         </Link>
         <div>
           <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
-            <Link className={route.pathname == "/" ? "text-secondaryColor" : ""} href="/">
+            <Link
+              className={route.pathname == "/" ? "text-secondaryColor" : ""}
+              href="/"
+            >
               Home
             </Link>
-            <Link className={route.pathname == "/posts" ? "text-secondaryColor" : ""} href="/posts">
+            <Link
+              className={
+                route.pathname == "/posts" ? "text-secondaryColor" : ""
+              }
+              href="/posts"
+            >
               Posts
             </Link>
-            <Link className={route.pathname == "/posts" ? "text-secondaryColor" : ""} href="/pages">
+            <Link
+              className={route.pathname == "/page" ? "text-secondaryColor" : ""}
+              href="/pages"
+            >
               Pages
             </Link>
-            
-            <Link className={route.pathname == "/photography" ? "text-secondaryColor" : ""} href="/photography">
+
+            <Link
+              className={
+                route.pathname == "/photography" ? "text-secondaryColor" : ""
+              }
+              href="/photography"
+            >
               Photography
             </Link>
-            <Link className={route.pathname == "/contact" ? "text-secondaryColor" : ""} href={"/contact"}>
+            <Link
+              className={
+                route.pathname == "/contact" ? "text-secondaryColor" : ""
+              }
+              href={"/contact"}
+            >
               Contact
             </Link>
           </ul>
