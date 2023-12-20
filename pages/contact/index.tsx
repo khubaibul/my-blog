@@ -15,7 +15,7 @@ const index = () => {
               <h1 className="text-3xl">Contact Us!</h1>
 
               <p className="text-gray-300">
-                Fill up the form below to send us a message.
+                Fill up the form below to send me a message.
               </p>
             </div>
 
